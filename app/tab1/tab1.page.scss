@@ -1,0 +1,32 @@
+ion-content{
+
+  --ion-background-color:#111D12;
+}
+
+ion-card-header{
+  background-color:  rgba(92, 92, 92, 0.5);
+  border-bottom:1px solid;
+}
+.welcome-card img {
+  max-height: 35vh;
+  overflow: hidden;
+}
+
+ion-card-title{
+  font-size: 21px;
+  color: rgb(221, 126, 48);
+
+}
+
+ion-card-subtitle{
+  font-size: 14px;
+  text-align: right;
+  text-transform: none;
+  color:rgb(41, 101, 190);
+ 
+}
+
+ion-card-content{
+  padding:5px;
+  background-color:  rgba(92, 92, 92, 0.5);
+}

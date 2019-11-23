@@ -1,0 +1,26 @@
+
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      Social Feed
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+<ion-card *ngFor="let post of postsToShow()">
+
+<ion-card-content> <img src="{{post.imageUrl}}"> </ion-card-content>    
+
+    <ion-card-header>
+      <ion-card-title> {{post.message}} </ion-card-title>
+      <ion-card-subtitle> {{post.from}}  </ion-card-subtitle>
+      <!-- <ion-card-subtitle> {{post.createdOn | date: 'MM-dd-yyyy hh:mm:ss'}} </ion-card-subtitle> -->
+    </ion-card-header>
+
+</ion-card>
+
+</ion-content>
+
+
